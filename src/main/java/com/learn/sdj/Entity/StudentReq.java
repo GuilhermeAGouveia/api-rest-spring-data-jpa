@@ -1,5 +1,8 @@
 package com.learn.sdj.Entity;
 
+//A classe Student espera receber o atributo birthday como um elemento do tipo LocalDate, mas
+// como a requisição JSON que chega traz em seu RequestBody um elemento brthday do tipo String, foi necessário
+// criar essa classe intermediária para atender a requisição e depois convertê-la numa classe Student
 
 public class StudentReq {
 
